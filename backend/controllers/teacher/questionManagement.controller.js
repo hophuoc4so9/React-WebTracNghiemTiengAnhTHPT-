@@ -1,7 +1,7 @@
-import { Question } from "../../models/Question.model.js";
-import { QuestionType } from "../../models/QuestionType.model.js";
-import { Audio } from "../../models/Audio.model.js";
-import { Passage } from "../../models/Passage.model.js";
+import { Question } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Question.model.js";
+import { QuestionType } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/QuestionType.model.js";
+import { Audio } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Audio.model.js";
+import { Passage } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Passage.model.js";
 import XLSX from "xlsx";
 import fs from "fs";
 

@@ -1,8 +1,8 @@
-import Exam from "../../models/Exam.model.js";
+import Exam from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Exam.model.js";
 import { redisService } from "../../config/redis.config.js";
-import Result from "../../models/Result.model.js";
-import { Passage } from "../../models/Passage.model.js";
-import ListeningExam from "../../models/listeningExam.model.js";
+import Result from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Result.model.js";
+import { Passage } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Passage.model.js";
+import ListeningExam from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/listeningExam.model.js";
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {

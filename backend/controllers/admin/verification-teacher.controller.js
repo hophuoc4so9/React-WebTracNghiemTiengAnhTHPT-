@@ -1,5 +1,5 @@
-import { VerificationRequest } from "../../models/VerificationRequest.model.js";
-import { TaiKhoan } from "../../models/Taikhoan.model.js";
+import { VerificationRequest } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/VerificationRequest.model.js";
+import { TaiKhoan } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Taikhoan.model.js";
 import { generateTokenAndSetToken } from "../../utils/generateToken.util.js";
 import { sendMail } from "../../helpers/sendMail.helper.js";
 

@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import { ENV_VARS } from "../../config/envVars.config.js";
-import Classroom from "../../models/Classroom.model.js";
+import Classroom from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Classroom.model.js";
 
 // Tham gia lớp học
 export const joinClassroom = async (req, res) => {

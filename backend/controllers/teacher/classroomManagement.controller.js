@@ -1,6 +1,6 @@
-import Classroom from "../../models/Classroom.model.js";
-import { TaiKhoan } from "../../models/Taikhoan.model.js";
-import Result from "../../models/Result.model.js"; // Import model kết quả
+import Classroom from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Classroom.model.js";
+import { TaiKhoan } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Taikhoan.model.js";
+import Result from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Result.model.js"; // Import model kết quả
 import XLSX from "xlsx"; // Import thư viện XLSX
 import jwt from "jsonwebtoken";
 import { ENV_VARS } from "../../config/envVars.config.js";

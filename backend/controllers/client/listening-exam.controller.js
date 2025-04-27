@@ -1,4 +1,4 @@
-import ListeningExam from "../../models/listeningExam.model.js";
+import ListeningExam from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/listeningExam.model.js";
 import { redisService } from "../../config/redis.config.js";
 
 export const index = async (req, res) => {

@@ -1,8 +1,8 @@
-import { TaiKhoan } from "../../models/Taikhoan.model.js";
-import { VerificationRequest } from "../../models/VerificationRequest.model.js";
+import { TaiKhoan } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Taikhoan.model.js";
+import { VerificationRequest } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/VerificationRequest.model.js";
 import bcryptjs from "bcryptjs";
 import { generateTokenAndSetToken } from "../../utils/generateToken.util.js";
-import { ForgotPassword } from "../../models/Forgot-Password.model.js";
+import { ForgotPassword } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Forgot-Password.model.js";
 import { generateRandomString } from "../../helpers/generateNumber.helper.js";
 import { sendMail } from "../../helpers/sendMail.helper.js";
 import jwt from "jsonwebtoken";

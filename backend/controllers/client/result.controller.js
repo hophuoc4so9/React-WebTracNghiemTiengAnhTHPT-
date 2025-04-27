@@ -1,14 +1,14 @@
 import mongoose from "mongoose";
-import Result from "../../models/Result.model.js";
-import Exam from "../../models/Exam.model.js";
-import { Question } from "../../models/Question.model.js";
+import Result from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Result.model.js";
+import Exam from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Exam.model.js";
+import { Question } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Question.model.js";
 import { trainModel, predict } from "../../utils/ai.util.js";
 import { getYoutubeVideos } from "../../utils/youtube.util.js";
 import { gemini } from "../../utils/gemini.util.js";
 import jwt from "jsonwebtoken";
 import { ENV_VARS } from "../../config/envVars.config.js";
-import { Audio } from "../../models/Audio.model.js";
-import ListeningExam from "../../models/listeningExam.model.js";
+import { Audio } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Audio.model.js";
+import ListeningExam from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/listeningExam.model.js";
 
 
 

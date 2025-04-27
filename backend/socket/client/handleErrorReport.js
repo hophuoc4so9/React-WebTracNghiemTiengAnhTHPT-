@@ -1,7 +1,7 @@
-import ErrorReport from "../../models/errorReport.model.js";
-import { Question } from "../../models/Question.model.js";
-import { TaiKhoan } from "../../models/Taikhoan.model.js";
-import Exam from "../../models/Exam.model.js";
+import ErrorReport from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/errorReport.model.js";
+import { Question } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Question.model.js";
+import { TaiKhoan } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Taikhoan.model.js";
+import Exam from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Exam.model.js";
 
 const handleErrorReport = () => {
   _io.on("connection", (socket) => {

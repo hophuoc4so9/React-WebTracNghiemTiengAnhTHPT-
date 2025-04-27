@@ -1,5 +1,5 @@
-import { Vocab } from "../../models/Vocab.model.js";
-import { FlashCardSet } from "../../models/FlashCardSet.model.js";
+import { Vocab } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Vocab.model.js";
+import { FlashCardSet } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/FlashCardSet.model.js";
 export const index = async (req, res) => {
   try {
     const flashCardSets = await FlashCardSet.find({

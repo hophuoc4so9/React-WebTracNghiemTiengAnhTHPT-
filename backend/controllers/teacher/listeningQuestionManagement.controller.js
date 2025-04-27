@@ -1,4 +1,4 @@
-import ListeningQuestion from "../../models/ListeningQuestion.js";
+import ListeningQuestion from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/ListeningQuestion.js";
 import mongoose from "mongoose";
 
 export const getAllListeningQuestionsController = async (req, res) => {

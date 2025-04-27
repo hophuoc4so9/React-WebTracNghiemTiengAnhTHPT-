@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import { ENV_VARS } from "../config/envVars.config.js";
-import { TaiKhoan } from "../models/Taikhoan.model.js";
+import { TaiKhoan } from "../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Taikhoan.model.js";
 
 export const protectedRoute = async (req, res, next) => {
   try {

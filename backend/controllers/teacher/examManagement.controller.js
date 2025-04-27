@@ -1,8 +1,8 @@
-import Exam from "../../models/Exam.model.js";
-import { Question } from "../../models/Question.model.js";
+import Exam from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Exam.model.js";
+import { Question } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Question.model.js";
 import { formatExamHeader } from "../../utils/examHeader.helper.js";
-import { QuestionType } from "../../models/QuestionType.model.js";
-import { Passage } from "../../models/Passage.model.js";
+import { QuestionType } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/QuestionType.model.js";
+import { Passage } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Passage.model.js";
 import mongoose from "mongoose";
 import { generateMultipleExamVariants } from "../../utils/generateMultipleExamVariants.js";
 import {

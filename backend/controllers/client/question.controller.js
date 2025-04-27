@@ -1,4 +1,4 @@
-import { Question } from "../../models/Question.model.js";
+import { Question } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Question.model.js";
 import XLSX from "xlsx";
 import fs from "fs";
 import path from "path";

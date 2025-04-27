@@ -1,4 +1,4 @@
-import { QuestionType } from "../../models/QuestionType.model.js";
+import { QuestionType } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/QuestionType.model.js";
 
 export const index = async (req, res) => {
   try {

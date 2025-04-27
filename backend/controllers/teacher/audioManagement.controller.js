@@ -1,4 +1,4 @@
-import { Audio } from "../../models/Audio.model.js"; 
+import { Audio } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Audio.model.js"; 
 
 // [POST]: teacher/audio/upload
 export const createAudio  = async (req, res) => {

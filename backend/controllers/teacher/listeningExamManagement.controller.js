@@ -1,11 +1,11 @@
-import ListeningExam from "../../models/listeningExam.model.js";
+import ListeningExam from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/listeningExam.model.js";
 import jwt from "jsonwebtoken";
 import { ENV_VARS } from "../../config/envVars.config.js";
-import { QuestionType } from "../../models/QuestionType.model.js";
-import { Audio } from "../../models/Audio.model.js";
+import { QuestionType } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/QuestionType.model.js";
+import { Audio } from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/Audio.model.js";
 import XLSX from "xlsx";
 import mongoose from "mongoose";
-import ListeningQuestion from "../../models/ListeningQuestion.js";
+import ListeningQuestion from "../../../../React-WebTracNghiemTiengAnhTHPT prototype/models/ListeningQuestion.js";
 
 export const createListeningExamController = async (req, res) => {
   try {
